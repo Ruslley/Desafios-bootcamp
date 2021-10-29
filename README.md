@@ -20,15 +20,15 @@ dígitos após o ponto decimal */
 
 //implemente sua solução nos espaços em branco
 
-let line = gets().split(" ");
-let H = parseInt(line[0]);
-let P = parseInt(line[1]);
+let line = gets().split(" "); <br>
+let H = parseInt(line[0]);  <br>
+let P = parseInt(line[1]); <br>
 
 
 
 
-let litro = (H*P)
-let media = 12    
-let mediaFinal = litro /media
+let litro = (H*P) <br>
+let media = 12    <br>
+let mediaFinal = litro /media <br>
 
-print(" " + mediaFinal.toFixed(3)); 
+print(" " + mediaFinal.toFixed(3)); <br>
