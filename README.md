@@ -18,7 +18,7 @@ dígitos após o ponto decimal */
 
 <h2> Resolução <h2>
 
-<script>//implemente sua solução nos espaços em branco
+//implemente sua solução nos espaços em branco
 
 let line = gets().split(" ");
 let H = parseInt(line[0]);
@@ -31,4 +31,4 @@ let litro = (H*P)
 let media = 12    
 let mediaFinal = litro /media
 
-print(" " + mediaFinal.toFixed(3)); <script>
+print(" " + mediaFinal.toFixed(3)); 
