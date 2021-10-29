@@ -1,5 +1,5 @@
 # Desafios-bootcamp
-<span color= red> // Cálculo de viagem
+// Cálculo de viagem
 
 /* Rubens quer calcular e mostrar a quantidade de litros de combustível gastos
 em uma viagem de carro, sendo que seu carro faz 12 KM/L. Como ele não sabe
@@ -14,9 +14,11 @@ O arquivo de entrada contém dois inteiros. O primeiro é o tempo gasto na
 viagem em horas e o segundo é a velocidade média durante a mesma em km/h.
 - Saída
 Imprima a quantidade de litros necessária para realizar a viagem, com três
-dígitos após o ponto decimal */ </span>
+dígitos após o ponto decimal */ 
 
-<h3>//implemente sua solução nos espaços em branco
+<h2> Resolução <h2>
+
+<script>//implemente sua solução nos espaços em branco
 
 let line = gets().split(" ");
 let H = parseInt(line[0]);
@@ -29,4 +31,4 @@ let litro = (H*P)
 let media = 12    
 let mediaFinal = litro /media
 
-print(" " + mediaFinal.toFixed(3)); <h3>
+print(" " + mediaFinal.toFixed(3)); <script>
